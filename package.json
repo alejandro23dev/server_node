@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@libsql/client": "^0.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.20.0",
+    "js-cookie": "^3.0.5",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.1",
+    "socket.io": "^4.7.5"
+  },
+  "type": "module",
+  "scripts": {
+    "server": "node --watch ./server/server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
