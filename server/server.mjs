@@ -12,7 +12,7 @@ async function connectToDB() {
   console.log('Connected to database');
 }
 
-connectToDB();
+// connectToDB();
 
 const port = process.env.port ?? 3000;
 
