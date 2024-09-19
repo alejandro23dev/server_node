@@ -10,7 +10,6 @@
   },
   "type": "module",
   "scripts": {
-    "server": "node --watch ./server/server.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node ./server/server.mjs"
   }
 }
